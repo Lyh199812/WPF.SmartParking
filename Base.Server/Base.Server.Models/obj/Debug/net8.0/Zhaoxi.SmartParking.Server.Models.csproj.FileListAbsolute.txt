@@ -1,0 +1,11 @@
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.Models\bin\Debug\net8.0\Zhaoxi.SmartParking.Server.Models.deps.json
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.Models\bin\Debug\net8.0\Zhaoxi.SmartParking.Server.Models.dll
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.Models\bin\Debug\net8.0\Zhaoxi.SmartParking.Server.Models.pdb
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.Models\obj\Debug\net8.0\Zhaoxi.SmartParking.Server.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.Models\obj\Debug\net8.0\Zhaoxi.SmartParking.Server.Models.AssemblyInfoInputs.cache
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.Models\obj\Debug\net8.0\Zhaoxi.SmartParking.Server.Models.AssemblyInfo.cs
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.Models\obj\Debug\net8.0\Zhaoxi.SmartParking.Server.Models.csproj.CoreCompileInputs.cache
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.Models\obj\Debug\net8.0\Zhaoxi.SmartParking.Server.Models.dll
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.Models\obj\Debug\net8.0\refint\Zhaoxi.SmartParking.Server.Models.dll
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.Models\obj\Debug\net8.0\Zhaoxi.SmartParking.Server.Models.pdb
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.Models\obj\Debug\net8.0\ref\Zhaoxi.SmartParking.Server.Models.dll

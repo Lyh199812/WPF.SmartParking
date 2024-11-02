@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Base.Server.Start.props" />
+</Project>

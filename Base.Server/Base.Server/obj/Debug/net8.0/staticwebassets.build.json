@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NmGQyGCc/pf/n6Ga6LyFYgJsbAD1ne5sEsIgb5F6mbs=",
+  "Source": "Base.Server.Start",
+  "BasePath": "_content/Base.Server.Start",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

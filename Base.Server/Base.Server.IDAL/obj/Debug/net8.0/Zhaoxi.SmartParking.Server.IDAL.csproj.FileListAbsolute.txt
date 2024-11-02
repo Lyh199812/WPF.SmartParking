@@ -1,0 +1,17 @@
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\bin\Debug\net8.0\Zhaoxi.SmartParking.Server.IDAL.deps.json
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\bin\Debug\net8.0\Zhaoxi.SmartParking.Server.IDAL.dll
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\bin\Debug\net8.0\Zhaoxi.SmartParking.Server.IDAL.pdb
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\bin\Debug\net8.0\Zhaoxi.SmartParking.Server.EFCore.dll
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\bin\Debug\net8.0\Zhaoxi.SmartParking.Server.Models.dll
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\bin\Debug\net8.0\Zhaoxi.SmartParking.Server.EFCore.pdb
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\bin\Debug\net8.0\Zhaoxi.SmartParking.Server.Models.pdb
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\obj\Debug\net8.0\Zhaoxi.SmartParking.Server.IDAL.csproj.AssemblyReference.cache
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\obj\Debug\net8.0\Zhaoxi.SmartParking.Server.IDAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\obj\Debug\net8.0\Zhaoxi.SmartParking.Server.IDAL.AssemblyInfoInputs.cache
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\obj\Debug\net8.0\Zhaoxi.SmartParking.Server.IDAL.AssemblyInfo.cs
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\obj\Debug\net8.0\Zhaoxi.SmartParking.Server.IDAL.csproj.CoreCompileInputs.cache
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\obj\Debug\net8.0\Zhaoxi.S.FC59EF46.Up2Date
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\obj\Debug\net8.0\Zhaoxi.SmartParking.Server.IDAL.dll
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\obj\Debug\net8.0\refint\Zhaoxi.SmartParking.Server.IDAL.dll
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\obj\Debug\net8.0\Zhaoxi.SmartParking.Server.IDAL.pdb
+E:\BaiduNetdiskDownload\20220326WPF上位机Course068SmartParking(25)\Zhaoxi.SmartParking.Server\Zhaoxi.SmartParking.Server.IDAL\obj\Debug\net8.0\ref\Zhaoxi.SmartParking.Server.IDAL.dll
