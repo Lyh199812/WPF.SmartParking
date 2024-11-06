@@ -29,7 +29,7 @@ namespace Base.Client.Upgrade.DataAccess
                 DownloadCompleted?.Invoke();
             };
             // 下载的网络文件地址；这个文件要保存在本地的哪个目录
-            webClient.DownloadFileAsync(new Uri("http://localhost:5000/api/file/download/" + fileModel.FileName), localFileName);
+            webClient.DownloadFileAsync(new Uri("http://localhost:22643/api/file/download/" + fileModel.FileName), localFileName);
         }
 
         private void WebClient_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)

@@ -52,7 +52,7 @@ namespace Base.Client.BaseModule.ViewModels
         }
         public UserInfoModel UserInfo { get; set; } = new UserInfoModel()
         {
-            UserIcon = "http://localhost:5000/api/file/img/1001.png" //"file/img/1001.png"
+            UserIcon = "http://localhost:22643/api/file/img/1001.png" //"file/img/1001.png"
         };
         public ICommand ConfirmCommand { get; set; }
         public ICommand CancelCommand { get; set; }
@@ -60,7 +60,7 @@ namespace Base.Client.BaseModule.ViewModels
 
         DialogCloseListener IDialogAware.RequestClose => throw new NotImplementedException();
 
-        string baseUrl = "http://localhost:5000/api/";
+        string baseUrl = "http://localhost:22643/api/";
 
         IUserBLL _userBLL;
         public AddUserDialogViewModel(IUserBLL userBLL, IFileBLL fileBLL)

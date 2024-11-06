@@ -17,6 +17,7 @@ E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Entity\obj\Debug\net8.0\Bas
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Entity\obj\Debug\net8.0\Base.Client.Entity.AssemblyInfoInputs.cache
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Entity\obj\Debug\net8.0\Base.Client.Entity.AssemblyInfo.cs
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Entity\obj\Debug\net8.0\Base.Client.Entity.csproj.CoreCompileInputs.cache
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Entity\obj\Debug\net8.0\Base.Client.Entity.sourcelink.json
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Entity\obj\Debug\net8.0\Base.Client.Entity.dll
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Entity\obj\Debug\net8.0\refint\Base.Client.Entity.dll
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Entity\obj\Debug\net8.0\Base.Client.Entity.pdb

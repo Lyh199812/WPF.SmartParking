@@ -18,6 +18,8 @@
     <ProjectReference Include="..\Base.Client.Common\Base.Client.Common.csproj" />
     <ProjectReference Include="..\Base.Client.Controls\Base.Client.Controls.csproj" />
     <ProjectReference Include="..\Base.Client.DAL\Base.Client.DAL.csproj" />
+    <ProjectReference Include="..\HVisionLibs.Assets\HVisionLibs.Shared.csproj" />
+    <ProjectReference Include="..\HVisionLibs.Core\HVisionLibs.Core.csproj" />
   </ItemGroup>
 
 </Project>

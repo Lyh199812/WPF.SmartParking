@@ -17,6 +17,7 @@ E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windo
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Client.IDAL.AssemblyInfoInputs.cache
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Client.IDAL.AssemblyInfo.cs
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Client.IDAL.csproj.CoreCompileInputs.cache
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Client.IDAL.sourcelink.json
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Client.IDAL.dll
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\refint\Base.Client.IDAL.dll
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Client.IDAL.pdb

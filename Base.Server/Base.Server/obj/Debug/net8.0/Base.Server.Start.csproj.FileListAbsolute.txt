@@ -383,3 +383,4 @@ E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server\obj\Debug\net8.0\refint\Bas
 E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server\obj\Debug\net8.0\Base.Server.Start.pdb
 E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server\obj\Debug\net8.0\Base.Server.Start.genruntimeconfig.cache
 E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server\obj\Debug\net8.0\ref\Base.Server.Start.dll
+E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server\obj\Debug\net8.0\Base.Server.Start.sourcelink.json

@@ -14,7 +14,7 @@ namespace Base.Client.DAL
     // 主要处理   请求WebApi的过程     
     public class WebDataAccess : IWebDataAccess
     {
-        readonly string baseUrl = "http://localhost:5178";
+        readonly string baseUrl = "http://localhost:22643";
 
         //private HttpClient httpClient = new HttpClient();
 

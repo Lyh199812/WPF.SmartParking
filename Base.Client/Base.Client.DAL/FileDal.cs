@@ -97,8 +97,8 @@ namespace Base.Client.DAL
         }
 
         // 图片文本的读取   保存服务端    URL地址进行访问   
-        // http://localhost:5000/api/file/1231231433432.jpg
-        // http://localhost:5000/api/file/1231231433432.mp3
+        // http://localhost:22643/api/file/1231231433432.jpg
+        // http://localhost:22643/api/file/1231231433432.mp3
 
     }
 }

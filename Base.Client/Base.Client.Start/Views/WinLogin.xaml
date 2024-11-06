@@ -147,7 +147,7 @@
                 </Grid.Background>
                 <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,60,0,0">
                     <TextBlock Text="欢迎使用" Foreground="#AAFFFFFF" Margin="0,10"/>
-                    <TextBlock Text="朝夕教育智慧停车系统" Foreground="White" FontSize="15"/>
+                    <TextBlock Text="XX管理系统" Foreground="White" FontSize="15"/>
                 </StackPanel>
                 <TextBlock Text="2022 © ZHAOXIEDU" Foreground="#88FFFFFF" VerticalAlignment="Bottom"
                        HorizontalAlignment="Center" FontSize="8" Margin="0,5"/>

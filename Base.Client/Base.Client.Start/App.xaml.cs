@@ -27,11 +27,11 @@ namespace Base.Client
 
 
             // WebApi 功能测试
-            // 客户端   通过http://localhost:5000/WeatherForecast
+            // 客户端   通过http://localhost:22643/WeatherForecast
             // 请求数据资源
             //HttpClient httpClient = new HttpClient();
             //httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJleHAiOjE2NDI4NjM3MjYsImlzcyI6IndlYmFwaS5jbiIsImF1ZCI6IldlYkFwaSJ9.p2MtlcqBVebWBWPwc3W3EyqsLPeuf4AKkxvw2XzwT2g");
-            //var resp = httpClient.GetAsync("http://localhost:5000/api/login").GetAwaiter().GetResult();
+            //var resp = httpClient.GetAsync("http://localhost:22643/api/login").GetAwaiter().GetResult();
             //string values = resp.Content.ReadAsStringAsync().GetAwaiter().GetResult();    // Json
             // 进一步的需要进行反序列化
 

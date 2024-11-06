@@ -5,30 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A8B589C3-0D2A-444B-B869-2C63E280C076}|Base.Server.Service\\Base.Server.Service.csproj|e:\\softlibs\\wpf.smartparking\\base.server\\base.server.service\\autoregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8B589C3-0D2A-444B-B869-2C63E280C076}|Base.Server.Service\\Base.Server.Service.csproj|solutionrelative:base.server.service\\autoregisterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECD34EBD-5E00-4152-B822-96BC927F24C7}|Base.Server\\Base.Server.Start.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\base.server\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECD34EBD-5E00-4152-B822-96BC927F24C7}|Base.Server\\Base.Server.Start.csproj|solutionrelative:base.server\\controllers\\autocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8B589C3-0D2A-444B-B869-2C63E280C076}|Base.Server.Service\\Base.Server.Service.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\base.server.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8B589C3-0D2A-444B-B869-2C63E280C076}|Base.Server.Service\\Base.Server.Service.csproj|solutionrelative:base.server.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECD34EBD-5E00-4152-B822-96BC927F24C7}|Base.Server\\Base.Server.Start.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\base.server\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECD34EBD-5E00-4152-B822-96BC927F24C7}|Base.Server\\Base.Server.Start.csproj|solutionrelative:base.server\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8B589C3-0D2A-444B-B869-2C63E280C076}|Base.Server.Service\\Base.Server.Service.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\base.server.service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8B589C3-0D2A-444B-B869-2C63E280C076}|Base.Server.Service\\Base.Server.Service.csproj|solutionrelative:base.server.service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECD34EBD-5E00-4152-B822-96BC927F24C7}|Base.Server\\Base.Server.Start.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\base.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECD34EBD-5E00-4152-B822-96BC927F24C7}|Base.Server\\Base.Server.Start.csproj|solutionrelative:base.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A69072A-C0EE-4183-96E6-A9022312D717}|Base.Server.EFCore\\Base.Server.EFCore.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\base.server.efcore\\efcorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A69072A-C0EE-4183-96E6-A9022312D717}|Base.Server.EFCore\\Base.Server.EFCore.csproj|solutionrelative:base.server.efcore\\efcorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,82 +24,10 @@
               "RelativeDocumentMoniker": "Base.Server.Service\\AutoRegisterService.cs",
               "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\Base.Server.Service\\AutoRegisterService.cs",
               "RelativeToolTip": "Base.Server.Service\\AutoRegisterService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAswBQAAAAoAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwEkAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T05:22:09.433Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AutoController.cs",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\Base.Server\\Controllers\\AutoController.cs",
-              "RelativeDocumentMoniker": "Base.Server\\Controllers\\AutoController.cs",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\Base.Server\\Controllers\\AutoController.cs",
-              "RelativeToolTip": "Base.Server\\Controllers\\AutoController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAADwvx8AAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T05:21:29.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FileController.cs",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\Base.Server\\Controllers\\FileController.cs",
-              "RelativeDocumentMoniker": "Base.Server\\Controllers\\FileController.cs",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\Base.Server\\Controllers\\FileController.cs",
-              "RelativeToolTip": "Base.Server\\Controllers\\FileController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAwCsAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T05:30:58.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\Base.Server\\Program.cs",
-              "RelativeDocumentMoniker": "Base.Server\\Program.cs",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\Base.Server\\Program.cs",
-              "RelativeToolTip": "Base.Server\\Program.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAQwCwAAACkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T07:37:27.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\Base.Server.Service\\UserService.cs",
-              "RelativeDocumentMoniker": "Base.Server.Service\\UserService.cs",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\Base.Server.Service\\UserService.cs",
-              "RelativeToolTip": "Base.Server.Service\\UserService.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAswGMAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T07:58:51.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\Base.Server.Service\\BaseService.cs",
-              "RelativeDocumentMoniker": "Base.Server.Service\\BaseService.cs",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\Base.Server.Service\\BaseService.cs",
-              "RelativeToolTip": "Base.Server.Service\\BaseService.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAqwEgAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T07:58:51.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EFCoreContext.cs",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\Base.Server.EFCore\\EFCoreContext.cs",
-              "RelativeDocumentMoniker": "Base.Server.EFCore\\EFCoreContext.cs",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Server\\Base.Server.EFCore\\EFCoreContext.cs",
-              "RelativeToolTip": "Base.Server.EFCore\\EFCoreContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAwA4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T07:58:13.689Z"
             }
           ]
         }

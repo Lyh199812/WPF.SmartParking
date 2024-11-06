@@ -137,3 +137,15 @@ E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\obj\Debug\net8.0-wind
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\obj\Debug\net8.0-windows\Base.Client.Start.pdb
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\obj\Debug\net8.0-windows\Base.Client.Start.genruntimeconfig.cache
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\obj\Debug\net8.0-windows\ref\Base.Client.Start.dll
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\obj\Debug\net8.0-windows\Base.Client.Start.sourcelink.json
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\bin\Debug\net8.0-windows\HVisionLibs.Core.dll
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\bin\Debug\net8.0-windows\HVisionLibs.Shared.dll
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\bin\Debug\net8.0-windows\halcondotnet.dll
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\bin\Debug\net8.0-windows\HVisionLibs.Shared.pdb
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\bin\Debug\net8.0-windows\HVisionLibs.Core.pdb
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\bin\Debug\net8.0-windows\Xceed.Wpf.Themes.NET5.dll
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\bin\Debug\net8.0-windows\Xceed.Wpf.Themes.MaterialDesign.NET5.dll
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\bin\Debug\net8.0-windows\Xceed.Wpf.Themes.MaterialDesignColors.NET5.dll
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll

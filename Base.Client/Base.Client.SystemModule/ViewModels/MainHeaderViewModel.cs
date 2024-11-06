@@ -29,9 +29,9 @@ namespace Base.Client.SystemModule.ViewModels
         public MainHeaderViewModel(GlobalValue globalValue)
         {
             CurrentUserName = globalValue.UserInfo.realName;
-            //http://localhost:5000/api/file/img/1001.png
+            //http://localhost:22643/api/file/img/1001.png
             // 如果需要Token的话，这里需要下载图片到本地，然后再引用
-            UserAvatar = "http://localhost:5000/api/" + globalValue.UserInfo.userIcon;
+            UserAvatar = "http://localhost:22643/api/" + globalValue.UserInfo.userIcon;
         }
     }
 }

@@ -13,6 +13,8 @@
           "Base.Client.Common": "1.0.0",
           "Base.Client.Controls": "1.0.0",
           "Base.Client.DAL": "1.0.0",
+          "HVisionLibs.Core": "1.0.0",
+          "HVisionLibs.Shared": "1.0.0",
           "Prism.Unity": "9.0.537"
         },
         "runtime": {
@@ -38,6 +40,26 @@
           }
         }
       },
+      "MaterialDesignColors/3.1.0": {
+        "runtime": {
+          "lib/net8.0/MaterialDesignColors.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.0.0"
+          }
+        }
+      },
+      "MaterialDesignThemes/5.1.0": {
+        "dependencies": {
+          "MaterialDesignColors": "3.1.0",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.135"
+        },
+        "runtime": {
+          "lib/net8.0/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
       "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
         "runtime": {
@@ -54,11 +76,7 @@
           "System.Security.Principal.Windows": "4.7.0"
         }
       },
-      "Microsoft.Win32.SystemEvents/4.7.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "3.1.0"
-        }
-      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {},
       "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
         "runtime": {
           "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
@@ -255,10 +273,15 @@
           }
         }
       },
-      "System.Drawing.Common/4.7.0": {
+      "System.Drawing.Common/8.0.10": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.Win32.SystemEvents": "4.7.0"
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46803"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {},
@@ -279,7 +302,7 @@
       "System.Threading.Tasks.Extensions/4.5.2": {},
       "System.Windows.Extensions/4.7.0": {
         "dependencies": {
-          "System.Drawing.Common": "4.7.0"
+          "System.Drawing.Common": "8.0.10"
         }
       },
       "Unity.Abstractions/5.11.7": {
@@ -302,6 +325,37 @@
           "lib/netcoreapp3.0/Unity.Container.dll": {
             "assemblyVersion": "5.11.11.0",
             "fileVersion": "5.11.11.0"
+          }
+        }
+      },
+      "Xceed.Wpf.Themes/4.5.23158.1451": {
+        "runtime": {
+          "lib/net5.0/Xceed.Wpf.Themes.NET5.dll": {
+            "assemblyVersion": "4.5.23158.14510",
+            "fileVersion": "4.5.23158.14510"
+          }
+        }
+      },
+      "Xceed.Wpf.Themes.MaterialDesign/4.5.23158.1451": {
+        "dependencies": {
+          "Xceed.Wpf.Themes": "4.5.23158.1451",
+          "Xceed.Wpf.Themes.MaterialDesignColors": "4.5.23158.1451"
+        },
+        "runtime": {
+          "lib/net5.0/Xceed.Wpf.Themes.MaterialDesign.NET5.dll": {
+            "assemblyVersion": "4.5.23158.14510",
+            "fileVersion": "4.5.23158.14510"
+          }
+        }
+      },
+      "Xceed.Wpf.Themes.MaterialDesignColors/4.5.23158.1451": {
+        "dependencies": {
+          "Xceed.Wpf.Themes": "4.5.23158.1451"
+        },
+        "runtime": {
+          "lib/net5.0/Xceed.Wpf.Themes.MaterialDesignColors.NET5.dll": {
+            "assemblyVersion": "4.5.23158.14510",
+            "fileVersion": "4.5.23158.14510"
           }
         }
       },
@@ -370,6 +424,35 @@
         "runtime": {
           "Base.Client.IDAL.dll": {}
         }
+      },
+      "HVisionLibs.Core/1.0.0": {
+        "dependencies": {
+          "Prism.Unity": "9.0.537"
+        },
+        "runtime": {
+          "HVisionLibs.Core.dll": {}
+        }
+      },
+      "HVisionLibs.Shared/1.0.0": {
+        "dependencies": {
+          "HVisionLibs.Core": "1.0.0",
+          "MaterialDesignColors": "3.1.0",
+          "MaterialDesignThemes": "5.1.0",
+          "Prism.Unity": "9.0.537",
+          "System.Drawing.Common": "8.0.10",
+          "Xceed.Wpf.Themes.MaterialDesign": "4.5.23158.1451"
+        },
+        "runtime": {
+          "HVisionLibs.Shared.dll": {}
+        }
+      },
+      "halcondotnet/22.5.0.0": {
+        "runtime": {
+          "halcondotnet.dll": {
+            "assemblyVersion": "22.5.0.0",
+            "fileVersion": "22.5.0.0"
+          }
+        }
       }
     }
   },
@@ -385,6 +468,20 @@
       "sha512": "sha512-yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
       "path": "entityframework/6.4.4",
       "hashPath": "entityframework.6.4.4.nupkg.sha512"
+    },
+    "MaterialDesignColors/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J2mpZBWx0wArrMCK8E0Cqfsy+Wh3iRDVnznp5/84B1KcnTKI9u9Pyt2zN0oSQGsa6NhvwdUErbhE3jJd6iRTxw==",
+      "path": "materialdesigncolors/3.1.0",
+      "hashPath": "materialdesigncolors.3.1.0.nupkg.sha512"
+    },
+    "MaterialDesignThemes/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k5lO0NqhExrCLnFWnapI+a2XvOOm/Mwz92GwUq4CvNrahMMPx9puALE8VJlLNeNxUYjWf2+PAKPGpmr1u1QDfg==",
+      "path": "materialdesignthemes/5.1.0",
+      "hashPath": "materialdesignthemes.5.1.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
@@ -414,12 +511,12 @@
       "path": "microsoft.win32.registry/4.7.0",
       "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
     },
-    "Microsoft.Win32.SystemEvents/4.7.0": {
+    "Microsoft.Win32.SystemEvents/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
-      "path": "microsoft.win32.systemevents/4.7.0",
-      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
     },
     "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
       "type": "package",
@@ -554,12 +651,12 @@
       "path": "system.data.sqlite.ef6/1.0.119",
       "hashPath": "system.data.sqlite.ef6.1.0.119.nupkg.sha512"
     },
-    "System.Drawing.Common/4.7.0": {
+    "System.Drawing.Common/8.0.10": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
-      "path": "system.drawing.common/4.7.0",
-      "hashPath": "system.drawing.common.4.7.0.nupkg.sha512"
+      "sha512": "sha512-MdajRp3P+FOlThgY6FBjAqnmLiVl5t2yWEC/2AsDMqx1zYbJG3G5TnscFBQ4obqcaGqvN5UnhQHSFaJFG2HftQ==",
+      "path": "system.drawing.common/8.0.10",
+      "hashPath": "system.drawing.common.8.0.10.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.2": {
       "type": "package",
@@ -624,6 +721,27 @@
       "path": "unity.container/5.11.11",
       "hashPath": "unity.container.5.11.11.nupkg.sha512"
     },
+    "Xceed.Wpf.Themes/4.5.23158.1451": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xfh6a8vNwzwiLsinGS9bz96u4qVqs2lD9ZzGeq38oEiQKqXFb9f1WbrbRzI1lhEW/E7Iu6n75TEkkfv9GdgwmQ==",
+      "path": "xceed.wpf.themes/4.5.23158.1451",
+      "hashPath": "xceed.wpf.themes.4.5.23158.1451.nupkg.sha512"
+    },
+    "Xceed.Wpf.Themes.MaterialDesign/4.5.23158.1451": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fi7Yk0PXCw/5xSiqc6oNMfOB3ym/Ah3LCV0Lfa8Vrlts0YmBuKpWewQeNpeWYe+4xfnAmI//fODXTpAXKvZgkw==",
+      "path": "xceed.wpf.themes.materialdesign/4.5.23158.1451",
+      "hashPath": "xceed.wpf.themes.materialdesign.4.5.23158.1451.nupkg.sha512"
+    },
+    "Xceed.Wpf.Themes.MaterialDesignColors/4.5.23158.1451": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y0xM9JBLGNalLMDfi7aFVy7COkuRyLpHTpChWjU579nhcrKeDgarPuFTmXts5OVx8blziNgtxV3pq4Sqr82YYg==",
+      "path": "xceed.wpf.themes.materialdesigncolors/4.5.23158.1451",
+      "hashPath": "xceed.wpf.themes.materialdesigncolors.4.5.23158.1451.nupkg.sha512"
+    },
     "Base.Client.Assets/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -661,6 +779,21 @@
     },
     "Base.Client.IDAL/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HVisionLibs.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HVisionLibs.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "halcondotnet/22.5.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

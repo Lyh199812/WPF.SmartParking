@@ -18,14 +18,17 @@
                         <Grid Background="Transparent" Name="back">
                             <TextBlock Text="&#xe760;" FontFamily="{StaticResource Iconfont}" 
                            VerticalAlignment="Center" HorizontalAlignment="Center"
-                           RenderTransformOrigin="0.5,0.5" Name="arrow" Foreground="White">
+                           RenderTransformOrigin="0.5,0.5"    Name="arrow" Foreground="White">
+                                <TextBlock.RenderTransform>
+                                    <RotateTransform Angle="90" />
+                                </TextBlock.RenderTransform>
                             </TextBlock>
                         </Grid>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsChecked" Value="True">
                                 <Setter TargetName="arrow" Property="RenderTransform">
                                     <Setter.Value>
-                                        <RotateTransform Angle="90"/>
+                                        <RotateTransform Angle="0"/>
                                     </Setter.Value>
                                 </Setter>
                             </Trigger>

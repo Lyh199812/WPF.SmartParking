@@ -53,7 +53,7 @@ namespace Base.Client.SystemModule.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Base.Client.SystemModule;V1.0.0.0;component/views/mainheaderview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Base.Client.SystemModule;component/views/mainheaderview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\MainHeaderView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

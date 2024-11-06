@@ -32,6 +32,39 @@
           "buildTransitive/netcoreapp3.0/EntityFramework.targets": {}
         }
       },
+      "MaterialDesignColors/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MaterialDesignColors.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "MaterialDesignThemes/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "3.1.0",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "compile": {
+          "lib/net8.0/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MaterialDesignThemes.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -93,23 +126,23 @@
           }
         }
       },
-      "Microsoft.Win32.SystemEvents/4.7.0": {
+      "Microsoft.Win32.SystemEvents/8.0.0": {
         "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "3.1.0"
-        },
         "compile": {
-          "ref/netstandard2.0/_._": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
             "related": ".xml"
           }
         },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -411,29 +444,23 @@
           "lib/netstandard2.1/System.Data.SQLite.EF6.dll": {}
         }
       },
-      "System.Drawing.Common/4.7.0": {
+      "System.Drawing.Common/8.0.10": {
         "type": "package",
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "3.1.0",
-          "Microsoft.Win32.SystemEvents": "4.7.0"
+          "Microsoft.Win32.SystemEvents": "8.0.0"
         },
         "compile": {
-          "ref/netcoreapp3.0/_._": {
-            "related": ".xml"
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Drawing.Common.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "assetType": "runtime",
-            "rid": "win"
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
           }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
@@ -595,6 +622,52 @@
           }
         }
       },
+      "Xceed.Wpf.Themes/4.5.23158.1451": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Xceed.Wpf.Themes.NET5.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Xceed.Wpf.Themes.NET5.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.Themes.MaterialDesign/4.5.23158.1451": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.Themes": "[4.5.23158.1451]",
+          "Xceed.Wpf.Themes.MaterialDesignColors": "[4.5.23158.1451]"
+        },
+        "compile": {
+          "lib/net5.0/Xceed.Wpf.Themes.MaterialDesign.NET5.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Xceed.Wpf.Themes.MaterialDesign.NET5.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Xceed.Wpf.Themes.MaterialDesignColors/4.5.23158.1451": {
+        "type": "package",
+        "dependencies": {
+          "Xceed.Wpf.Themes": "[4.5.23158.1451]"
+        },
+        "compile": {
+          "lib/net5.0/Xceed.Wpf.Themes.MaterialDesignColors.NET5.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Xceed.Wpf.Themes.MaterialDesignColors.NET5.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Base.Client.Assets/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -709,6 +782,43 @@
         "runtime": {
           "bin/placeholder/Base.Client.IDAL.dll": {}
         }
+      },
+      "HVisionLibs.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Prism.Unity": "9.0.537"
+        },
+        "compile": {
+          "bin/placeholder/HVisionLibs.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HVisionLibs.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "HVisionLibs.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "HVisionLibs.Core": "1.0.0",
+          "MaterialDesignColors": "3.1.0",
+          "MaterialDesignThemes": "5.1.0",
+          "Prism.Unity": "9.0.537",
+          "System.Drawing.Common": "8.0.10",
+          "Xceed.Wpf.Themes.MaterialDesign": "4.5.23158.1451"
+        },
+        "compile": {
+          "bin/placeholder/HVisionLibs.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HVisionLibs.Shared.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -768,6 +878,68 @@
         "tools/netcoreapp3.0/any/ef6.dll",
         "tools/netcoreapp3.0/any/ef6.pdb",
         "tools/netcoreapp3.0/any/ef6.runtimeconfig.json"
+      ]
+    },
+    "MaterialDesignColors/3.1.0": {
+      "sha512": "J2mpZBWx0wArrMCK8E0Cqfsy+Wh3iRDVnznp5/84B1KcnTKI9u9Pyt2zN0oSQGsa6NhvwdUErbhE3jJd6iRTxw==",
+      "type": "package",
+      "path": "materialdesigncolors/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "docs/README.md",
+        "images/MaterialDesignColors.Icon.png",
+        "lib/net462/MaterialDesignColors.dll",
+        "lib/net462/MaterialDesignColors.pdb",
+        "lib/net6.0/MaterialDesignColors.dll",
+        "lib/net6.0/MaterialDesignColors.pdb",
+        "lib/net8.0/MaterialDesignColors.dll",
+        "lib/net8.0/MaterialDesignColors.pdb",
+        "materialdesigncolors.3.1.0.nupkg.sha512",
+        "materialdesigncolors.nuspec"
+      ]
+    },
+    "MaterialDesignThemes/5.1.0": {
+      "sha512": "k5lO0NqhExrCLnFWnapI+a2XvOOm/Mwz92GwUq4CvNrahMMPx9puALE8VJlLNeNxUYjWf2+PAKPGpmr1u1QDfg==",
+      "type": "package",
+      "path": "materialdesignthemes/5.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MaterialDesignThemes.targets",
+        "build/Resources/Roboto/Roboto-Black.ttf",
+        "build/Resources/Roboto/Roboto-BlackItalic.ttf",
+        "build/Resources/Roboto/Roboto-Bold.ttf",
+        "build/Resources/Roboto/Roboto-BoldItalic.ttf",
+        "build/Resources/Roboto/Roboto-Italic.ttf",
+        "build/Resources/Roboto/Roboto-Light.ttf",
+        "build/Resources/Roboto/Roboto-LightItalic.ttf",
+        "build/Resources/Roboto/Roboto-Medium.ttf",
+        "build/Resources/Roboto/Roboto-MediumItalic.ttf",
+        "build/Resources/Roboto/Roboto-Regular.ttf",
+        "build/Resources/Roboto/Roboto-Thin.ttf",
+        "build/Resources/Roboto/Roboto-ThinItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Bold.ttf",
+        "build/Resources/Roboto/RobotoCondensed-BoldItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Italic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Light.ttf",
+        "build/Resources/Roboto/RobotoCondensed-LightItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Regular.ttf",
+        "docs/README.md",
+        "images/MaterialDesignThemes.Icon.png",
+        "lib/net462/MaterialDesignThemes.Wpf.dll",
+        "lib/net462/MaterialDesignThemes.Wpf.pdb",
+        "lib/net462/MaterialDesignThemes.Wpf.xml",
+        "lib/net6.0/MaterialDesignThemes.Wpf.dll",
+        "lib/net6.0/MaterialDesignThemes.Wpf.pdb",
+        "lib/net6.0/MaterialDesignThemes.Wpf.xml",
+        "lib/net8.0/MaterialDesignThemes.Wpf.dll",
+        "lib/net8.0/MaterialDesignThemes.Wpf.pdb",
+        "lib/net8.0/MaterialDesignThemes.Wpf.xml",
+        "materialdesignthemes.5.1.0.nupkg.sha512",
+        "materialdesignthemes.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -935,33 +1107,39 @@
         "version.txt"
       ]
     },
-    "Microsoft.Win32.SystemEvents/4.7.0": {
-      "sha512": "mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "sha512": "9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
       "type": "package",
-      "path": "microsoft.win32.systemevents/4.7.0",
+      "path": "microsoft.win32.systemevents/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.Win32.SystemEvents.dll",
-        "lib/net461/Microsoft.Win32.SystemEvents.xml",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.xml",
         "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
         "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+        "microsoft.win32.systemevents.8.0.0.nupkg.sha512",
         "microsoft.win32.systemevents.nuspec",
-        "ref/net461/Microsoft.Win32.SystemEvents.dll",
-        "ref/net461/Microsoft.Win32.SystemEvents.xml",
-        "ref/net472/Microsoft.Win32.SystemEvents.dll",
-        "ref/net472/Microsoft.Win32.SystemEvents.xml",
-        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
-        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
-        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
-        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
-        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
@@ -1505,43 +1683,44 @@
         "tools/net46/install.ps1"
       ]
     },
-    "System.Drawing.Common/4.7.0": {
-      "sha512": "v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+    "System.Drawing.Common/8.0.10": {
+      "sha512": "MdajRp3P+FOlThgY6FBjAqnmLiVl5t2yWEC/2AsDMqx1zYbJG3G5TnscFBQ4obqcaGqvN5UnhQHSFaJFG2HftQ==",
       "type": "package",
-      "path": "system.drawing.common/4.7.0",
+      "path": "system.drawing.common/8.0.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
-        "lib/net461/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.pdb",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.pdb",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/net7.0/System.Drawing.Common.dll",
+        "lib/net7.0/System.Drawing.Common.pdb",
+        "lib/net7.0/System.Drawing.Common.xml",
+        "lib/net8.0/System.Drawing.Common.dll",
+        "lib/net8.0/System.Drawing.Common.pdb",
+        "lib/net8.0/System.Drawing.Common.xml",
         "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.pdb",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net461/System.Drawing.Common.dll",
-        "ref/netcoreapp3.0/System.Drawing.Common.dll",
-        "ref/netcoreapp3.0/System.Drawing.Common.xml",
-        "ref/netstandard2.0/System.Drawing.Common.dll",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
-        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
-        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "system.drawing.common.4.7.0.nupkg.sha512",
+        "system.drawing.common.8.0.10.nupkg.sha512",
         "system.drawing.common.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.2": {
@@ -1859,6 +2038,63 @@
         "unity.container.nuspec"
       ]
     },
+    "Xceed.Wpf.Themes/4.5.23158.1451": {
+      "sha512": "xfh6a8vNwzwiLsinGS9bz96u4qVqs2lD9ZzGeq38oEiQKqXFb9f1WbrbRzI1lhEW/E7Iu6n75TEkkfv9GdgwmQ==",
+      "type": "package",
+      "path": "xceed.wpf.themes/4.5.23158.1451",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.Themes.dll",
+        "lib/net40/Xceed.Wpf.Themes.xml",
+        "lib/net5.0/Xceed.Wpf.Themes.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.Themes.NET5.xml",
+        "lib/netcoreapp3.0/Xceed.Wpf.Themes.NETCore.dll",
+        "lib/netcoreapp3.0/Xceed.Wpf.Themes.NETCore.xml",
+        "xceed.wpf.themes.4.5.23158.1451.nupkg.sha512",
+        "xceed.wpf.themes.nuspec"
+      ]
+    },
+    "Xceed.Wpf.Themes.MaterialDesign/4.5.23158.1451": {
+      "sha512": "fi7Yk0PXCw/5xSiqc6oNMfOB3ym/Ah3LCV0Lfa8Vrlts0YmBuKpWewQeNpeWYe+4xfnAmI//fODXTpAXKvZgkw==",
+      "type": "package",
+      "path": "xceed.wpf.themes.materialdesign/4.5.23158.1451",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.Themes.MaterialDesign.dll",
+        "lib/net40/Xceed.Wpf.Themes.MaterialDesign.xml",
+        "lib/net5.0/Xceed.Wpf.Themes.MaterialDesign.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.Themes.MaterialDesign.NET5.xml",
+        "lib/netcoreapp3.0/Xceed.Wpf.Themes.MaterialDesign.NETCore.dll",
+        "lib/netcoreapp3.0/Xceed.Wpf.Themes.MaterialDesign.NETCore.xml",
+        "xceed.wpf.themes.materialdesign.4.5.23158.1451.nupkg.sha512",
+        "xceed.wpf.themes.materialdesign.nuspec"
+      ]
+    },
+    "Xceed.Wpf.Themes.MaterialDesignColors/4.5.23158.1451": {
+      "sha512": "Y0xM9JBLGNalLMDfi7aFVy7COkuRyLpHTpChWjU579nhcrKeDgarPuFTmXts5OVx8blziNgtxV3pq4Sqr82YYg==",
+      "type": "package",
+      "path": "xceed.wpf.themes.materialdesigncolors/4.5.23158.1451",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License Agreement.txt",
+        "images/Toolkit.png",
+        "lib/net40/Xceed.Wpf.Themes.MaterialDesignColors.dll",
+        "lib/net40/Xceed.Wpf.Themes.MaterialDesignColors.xml",
+        "lib/net5.0/Xceed.Wpf.Themes.MaterialDesignColors.NET5.dll",
+        "lib/net5.0/Xceed.Wpf.Themes.MaterialDesignColors.NET5.xml",
+        "lib/netcoreapp3.0/Xceed.Wpf.Themes.MaterialDesignColors.NETCore.dll",
+        "lib/netcoreapp3.0/Xceed.Wpf.Themes.MaterialDesignColors.NETCore.xml",
+        "xceed.wpf.themes.materialdesigncolors.4.5.23158.1451.nupkg.sha512",
+        "xceed.wpf.themes.materialdesigncolors.nuspec"
+      ]
+    },
     "Base.Client.Assets/1.0.0": {
       "type": "project",
       "path": "../Base.Client.Assets/Base.Client.Assets.csproj",
@@ -1898,6 +2134,16 @@
       "type": "project",
       "path": "../Base.Client.IDAL/Base.Client.IDAL.csproj",
       "msbuildProject": "../Base.Client.IDAL/Base.Client.IDAL.csproj"
+    },
+    "HVisionLibs.Core/1.0.0": {
+      "type": "project",
+      "path": "../HVisionLibs.Core/HVisionLibs.Core.csproj",
+      "msbuildProject": "../HVisionLibs.Core/HVisionLibs.Core.csproj"
+    },
+    "HVisionLibs.Shared/1.0.0": {
+      "type": "project",
+      "path": "../HVisionLibs.Assets/HVisionLibs.Shared.csproj",
+      "msbuildProject": "../HVisionLibs.Assets/HVisionLibs.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1907,6 +2153,8 @@
       "Base.Client.Common >= 1.0.0",
       "Base.Client.Controls >= 1.0.0",
       "Base.Client.DAL >= 1.0.0",
+      "HVisionLibs.Core >= 1.0.0",
+      "HVisionLibs.Shared >= 1.0.0",
       "Prism.Unity >= 9.0.537"
     ]
   },
@@ -1956,6 +2204,12 @@
             },
             "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Client.DAL\\Base.Client.DAL.csproj": {
               "projectPath": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Client.DAL\\Base.Client.DAL.csproj"
+            },
+            "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\HVisionLibs.Assets\\HVisionLibs.Shared.csproj": {
+              "projectPath": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\HVisionLibs.Assets\\HVisionLibs.Shared.csproj"
+            },
+            "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\HVisionLibs.Core\\HVisionLibs.Core.csproj": {
+              "projectPath": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\HVisionLibs.Core\\HVisionLibs.Core.csproj"
             }
           }
         }

@@ -45,7 +45,7 @@ namespace Base.Client.SystemModule.ViewModels
                             menuHeader = "系统维护",
                             targetView = "",
                             parentId = 0,
-                            menuIcon = "\uE618",
+                            menuIcon = "\ue643",
                             index = 0,
                             menuType = 0,
                             state = 1
@@ -85,7 +85,135 @@ namespace Base.Client.SystemModule.ViewModels
                             index = 3,
                             menuType = 1,
                             state = 1
+                        },
+
+                        //配方管理
+                        new MenuEntity
+                        {
+                            menuId = 20,
+                            menuHeader = "机器视觉",
+                            targetView = "",
+                            parentId = 0,
+                            menuIcon = "\ue646",
+                            index = 0,
+                            menuType = 0,
+                            state = 1
+                        },
+                        //预处理
+                        new MenuEntity
+                        {
+                            menuId = 200,
+                            menuHeader = "预处理",
+                            targetView = "",
+                            parentId = 20,
+                            menuIcon = "\ue78f",
+                            index = 0,
+                            menuType = 0,
+                            state = 1
+                        },
+                        new MenuEntity
+                        {
+                            menuId = 2000,
+                            menuHeader = "镜像反转",
+                            targetView = "MirrorView",
+                            parentId = 200,
+                            menuIcon = "",
+                            index = 0,
+                            menuType = 0,
+                            state = 1
                         }
+                        ,
+                        new MenuEntity
+                        {
+                            menuId = 2001,
+                            menuHeader = "缩放因子设置",
+                            targetView = "ZoomFactorView",
+                            parentId = 200,
+                            menuIcon = "",
+                            index = 0,
+                            menuType = 0,
+                            state = 1
+                        },
+
+                        //模板匹配
+                          new MenuEntity
+                        {
+                            menuId = 300,
+                            menuHeader = "模板匹配",
+                            targetView = "",
+                            parentId = 20,
+                            menuIcon = "\ue600",
+                            index = 0,
+                            menuType = 0,
+                            state = 1
+                        },
+                          new MenuEntity
+                        {
+                            menuId = 3000,
+                            menuHeader = "形状模板创建",
+                            targetView = "ShapeTemplateCreatorView",
+                            parentId = 300,
+                            menuIcon = "",
+                            index = 0,
+                            menuType = 0,
+                            state = 1
+                        },
+                           new MenuEntity
+                        {
+                            menuId = 3001,
+                            menuHeader = "形状模板搜索",
+                            targetView = "ShapeTemplateSearcherView",
+                            parentId = 300,
+                            menuIcon = "",
+                            index = 0,
+                            menuType = 0,
+                            state = 1
+                        },
+                           
+                         new MenuEntity
+                        {
+                            menuId = 3002,
+                            menuHeader = "NCC模板创建",
+                            targetView = "NCCTemplateCreatorView",
+                            parentId = 300,
+                            menuIcon = "",
+                            index = 0,
+                            menuType = 0,
+                            state = 1
+                        },
+                          new MenuEntity
+                        {
+                            menuId = 3003,
+                            menuHeader = "NCC模板搜索",
+                            targetView = "NCCTemplateSearcherView",
+                            parentId = 300,
+                            menuIcon = "",
+                            index = 0,
+                            menuType = 0,
+                            state = 1
+                        },
+                           new MenuEntity
+                        {
+                            menuId = 3003,
+                            menuHeader = "形变模板创建",
+                            targetView = "",
+                            parentId = 300,
+                            menuIcon = "",
+                            index = 0,
+                            menuType = 0,
+                            state = 1
+                        },
+                          new MenuEntity
+                        {
+                            menuId = 3004,
+                            menuHeader = "形变模板搜索",
+                            targetView = "",
+                            parentId = 300,
+                            menuIcon = "",
+                            index = 0,
+                            menuType = 0,
+                            state = 1
+                        },
                     };
                     unityContainer.Resolve<Dispatcher>().Invoke(() =>
                     {
@@ -102,8 +230,7 @@ namespace Base.Client.SystemModule.ViewModels
                         this.FillMenus(Menus, 0);
                     });
                 }
-
-                
+      
             });
 
             //origMenus = menuBLL.GetMenus(0).GetAwaiter().GetResult();

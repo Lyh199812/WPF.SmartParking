@@ -39,6 +39,7 @@ E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-win
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Base.Client.Assets.AssemblyInfoInputs.cache
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Base.Client.Assets.AssemblyInfo.cs
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Base.Client.Assets.csproj.CoreCompileInputs.cache
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Base.Client.Assets.sourcelink.json
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Base.Client.Assets.dll
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\refint\Base.Client.Assets.dll
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Base.Client.Assets.pdb
