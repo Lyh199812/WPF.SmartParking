@@ -13,11 +13,15 @@ E:\SoftLibs\ZhaoXi.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-wi
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\bin\Debug\net8.0-windows\Base.Client.IDAL.deps.json
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\bin\Debug\net8.0-windows\Base.Client.IDAL.dll
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\bin\Debug\net8.0-windows\Base.Client.IDAL.pdb
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\bin\Debug\net8.0-windows\Base.Client.Entity.dll
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\bin\Debug\net8.0-windows\Base.Client.Entity.pdb
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Client.IDAL.csproj.AssemblyReference.cache
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Client.IDAL.GeneratedMSBuildEditorConfig.editorconfig
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Client.IDAL.AssemblyInfoInputs.cache
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Client.IDAL.AssemblyInfo.cs
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Client.IDAL.csproj.CoreCompileInputs.cache
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Client.IDAL.sourcelink.json
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Cli.4D010781.Up2Date
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Client.IDAL.dll
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\refint\Base.Client.IDAL.dll
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.IDAL\obj\Debug\net8.0-windows\Base.Client.IDAL.pdb

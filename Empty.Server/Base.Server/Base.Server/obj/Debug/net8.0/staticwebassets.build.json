@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "y7CsCypmebQwMlH+7M668tWKBI5+9nFEpgJKVbEOjDE=",
+  "Source": "IMU.Server.Start",
+  "BasePath": "_content/IMU.Server.Start",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

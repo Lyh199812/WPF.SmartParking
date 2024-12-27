@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "Base.Server.Controllers.MenuController",
+    "Method": "GetAllMenus",
+    "RelativePath": "api/Menu/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Base.Server.Controllers.MenuController",
+    "Method": "GetMenusIdByRole",
+    "RelativePath": "api/Menu/byrole/{roleId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Base.Server.Controllers.MenuController",
+    "Method": "SaveMenu",
+    "RelativePath": "api/Menu/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Base.Server.Models.MenuModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

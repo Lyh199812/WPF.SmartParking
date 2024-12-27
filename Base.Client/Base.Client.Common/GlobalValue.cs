@@ -9,6 +9,8 @@ namespace Base.Client.Common
 {
     public class GlobalValue
     {
+        public bool IsLocalMode {  get; set; }=true;
         public UserEntity UserInfo { get; set; }
+
     }
 }

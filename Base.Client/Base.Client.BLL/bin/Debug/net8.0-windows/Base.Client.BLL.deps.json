@@ -126,7 +126,10 @@
       },
       "Base.Client.Entity/1.0.0": {
         "runtime": {
-          "Base.Client.Entity.dll": {}
+          "Base.Client.Entity.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Base.Client.IBLL/1.0.0": {
@@ -134,12 +137,21 @@
           "Base.Client.Entity": "1.0.0"
         },
         "runtime": {
-          "Base.Client.IBLL.dll": {}
+          "Base.Client.IBLL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Base.Client.IDAL/1.0.0": {
+        "dependencies": {
+          "Base.Client.Entity": "1.0.0"
+        },
         "runtime": {
-          "Base.Client.IDAL.dll": {}
+          "Base.Client.IDAL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

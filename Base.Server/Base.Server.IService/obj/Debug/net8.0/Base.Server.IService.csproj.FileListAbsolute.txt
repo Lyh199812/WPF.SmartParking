@@ -44,3 +44,4 @@ E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server.IService\obj\Debug\net8.0\B
 E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server.IService\obj\Debug\net8.0\refint\Base.Server.IService.dll
 E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server.IService\obj\Debug\net8.0\Base.Server.IService.pdb
 E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server.IService\obj\Debug\net8.0\ref\Base.Server.IService.dll
+E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server.IService\obj\Debug\net8.0\Base.Server.IService.sourcelink.json

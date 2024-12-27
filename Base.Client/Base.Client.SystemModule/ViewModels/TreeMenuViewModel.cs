@@ -1,17 +1,9 @@
 ﻿using Base.Client.Common;
 using Base.Client.Entity;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Threading;
-using Unity;
-using Base.Client.Common;
-using Base.Client.IBLL;
 using Base.Client.SystemModule.Models;
-using Base.Client.BLL;
+using System.Windows;
 
 namespace Base.Client.SystemModule.ViewModels
 {
@@ -34,190 +26,131 @@ namespace Base.Client.SystemModule.ViewModels
 
             Task.Run(async () =>
             {
-                string Model = "LocalMode";
-                if (Model == "LocalMode")
+                if (unityContainer.Resolve<GlobalValue>().IsLocalMode)
                 {
-                     origMenus = new List<MenuEntity>
+                    origMenus = new List<MenuEntity>()
                     {
-                        new MenuEntity
+                        //综合项目
+                        new MenuEntity()
                         {
-                            menuId = 10,
-                            menuHeader = "系统维护",
+                            menuId = 69,
+                            menuHeader = "DataHub",
                             targetView = "",
                             parentId = 0,
-                            menuIcon = "\ue643",
+                            menuIcon = "\ue60a",
                             index = 0,
-                            menuType = 0,
+                            menuType = 0,  // 顶级菜单
                             state = 1
                         },
-                    
+                         
+                        // 上下料   
                         new MenuEntity
                         {
-                            menuId = 100,
-                            menuHeader = "升级文件上传",
-                            targetView = "FileUploadView",
-                            parentId = 10,
-                            menuIcon = string.Empty,
-                            index = 1,
-                            menuType = 1,
+                            menuId = 71,
+                            menuHeader = "在线监控",
+                            targetView = "MonitorView",
+                            parentId = 69,
+                            menuIcon = "",
+                            index = 0,
+                            menuType = 1,  // 顶级菜单
                             state = 1
                         },
-                    
                         new MenuEntity
                         {
-                            menuId = 101,
-                            menuHeader = "菜单管理",
-                            targetView = "MenuManagementView",
-                            parentId = 10,
-                            menuIcon = string.Empty,
-                            index = 2,
-                            menuType = 1,
+                            menuId = 72,
+                            menuHeader = "托盘状态",
+                            targetView = "TrayView",
+                            parentId = 69,
+                            menuIcon = "",
+                            index = 0,
+                            menuType = 1,  // 顶级菜单
                             state = 1
                         },
-                    
                         new MenuEntity
                         {
-                            menuId = 102,
-                            menuHeader = "系统用户",
-                            targetView = "UserManagementView",
-                            parentId = 10,
-                            menuIcon = string.Empty,
-                            index = 3,
-                            menuType = 1,
+                            menuId = 73,
+                            menuHeader = "批次查询",
+                            targetView = "BatchView",
+                            parentId = 69,
+                            menuIcon = "",
+                            index = 0,
+                            menuType = 1,  // 顶级菜单
                             state = 1
                         },
-
-                        //配方管理
-                        new MenuEntity
+                         new MenuEntity()
                         {
-                            menuId = 20,
+                            menuId = 74,
+                            menuHeader = "测试数据",
+                            targetView = "TestDataView",
+                            parentId = 69,
+                            menuIcon = "",
+                            index = 0,
+                            menuType = 0,  // 顶级菜单
+                            state = 1
+                        },
+                         //综合项目
+                        new MenuEntity()
+                        {
+                            menuId = 67,
                             menuHeader = "机器视觉",
                             targetView = "",
                             parentId = 0,
-                            menuIcon = "\ue646",
+                            menuIcon = "\ue60a",
                             index = 0,
-                            menuType = 0,
+                            menuType = 0,  // 顶级菜单
                             state = 1
                         },
-                        //预处理
-                        new MenuEntity
+                         new MenuEntity()
                         {
-                            menuId = 200,
-                            menuHeader = "预处理",
+                            menuId = 67,
+                            menuHeader = "运动控制",
                             targetView = "",
-                            parentId = 20,
-                            menuIcon = "\ue78f",
+                            parentId = 0,
+                            menuIcon = "\ue60a",
                             index = 0,
-                            menuType = 0,
+                            menuType = 0,  // 顶级菜单
                             state = 1
                         },
-                        new MenuEntity
+                          new MenuEntity()
                         {
-                            menuId = 2000,
-                            menuHeader = "镜像反转",
-                            targetView = "MirrorView",
-                            parentId = 200,
-                            menuIcon = "",
-                            index = 0,
-                            menuType = 0,
-                            state = 1
-                        }
-                        ,
-                        new MenuEntity
-                        {
-                            menuId = 2001,
-                            menuHeader = "缩放因子设置",
-                            targetView = "ZoomFactorView",
-                            parentId = 200,
-                            menuIcon = "",
-                            index = 0,
-                            menuType = 0,
-                            state = 1
-                        },
-
-                        //模板匹配
-                          new MenuEntity
-                        {
-                            menuId = 300,
-                            menuHeader = "模板匹配",
+                            menuId = 67,
+                            menuHeader = "仪器通信",
                             targetView = "",
-                            parentId = 20,
-                            menuIcon = "\ue600",
+                            parentId = 0,
+                            menuIcon = "\ue60a",
                             index = 0,
-                            menuType = 0,
+                            menuType = 0,  // 顶级菜单
                             state = 1
                         },
-                          new MenuEntity
-                        {
-                            menuId = 3000,
-                            menuHeader = "形状模板创建",
-                            targetView = "ShapeTemplateCreatorView",
-                            parentId = 300,
-                            menuIcon = "",
-                            index = 0,
-                            menuType = 0,
-                            state = 1
-                        },
-                           new MenuEntity
-                        {
-                            menuId = 3001,
-                            menuHeader = "形状模板搜索",
-                            targetView = "ShapeTemplateSearcherView",
-                            parentId = 300,
-                            menuIcon = "",
-                            index = 0,
-                            menuType = 0,
-                            state = 1
-                        },
-                           
-                         new MenuEntity
-                        {
-                            menuId = 3002,
-                            menuHeader = "NCC模板创建",
-                            targetView = "NCCTemplateCreatorView",
-                            parentId = 300,
-                            menuIcon = "",
-                            index = 0,
-                            menuType = 0,
-                            state = 1
-                        },
-                          new MenuEntity
-                        {
-                            menuId = 3003,
-                            menuHeader = "NCC模板搜索",
-                            targetView = "NCCTemplateSearcherView",
-                            parentId = 300,
-                            menuIcon = "",
-                            index = 0,
-                            menuType = 0,
-                            state = 1
-                        },
-                           new MenuEntity
-                        {
-                            menuId = 3003,
-                            menuHeader = "形变模板创建",
-                            targetView = "",
-                            parentId = 300,
-                            menuIcon = "",
-                            index = 0,
-                            menuType = 0,
-                            state = 1
-                        },
-                          new MenuEntity
-                        {
-                            menuId = 3004,
-                            menuHeader = "形变模板搜索",
-                            targetView = "",
-                            parentId = 300,
-                            menuIcon = "",
-                            index = 0,
-                            menuType = 0,
-                            state = 1
-                        },
+                          
+                          
                     };
                     unityContainer.Resolve<Dispatcher>().Invoke(() =>
                     {
                         this.FillMenus(Menus, 0);
+                        switch(1)
+                        {
+                            case 0:
+                                {
+                                    //灌胶
+                                    OpenDefaultView(Menus, "PGlueLocatorMonitorView");
+                                    break;
+                                }
+                               
+                            case 1:
+                                {
+                                    OpenDefaultView(Menus, "MonitorView");
+                                    break;
+                              
+                                }
+                            case 2:
+                                {
+                                    OpenDefaultView(Menus, "BXCMonitorView");
+                                    break;
+
+                                }
+                        }
+                       
                     });
                 }
                 else
@@ -230,7 +163,7 @@ namespace Base.Client.SystemModule.ViewModels
                         this.FillMenus(Menus, 0);
                     });
                 }
-      
+               
             });
 
             //origMenus = menuBLL.GetMenus(0).GetAwaiter().GetResult();
@@ -260,6 +193,38 @@ namespace Base.Client.SystemModule.ViewModels
                     FillMenus(mm.Children, item.menuId);
                 }
             }
+        }
+
+
+        // 打开默认的窗口
+        private void OpenDefaultView(ObservableCollection<MenuItemModel> menus, string targetView)
+        {
+            // 假设要打开第一个菜单项的默认页面
+            //var defaultMenuItem = Menus.FirstOrDefault();
+            Application.Current.Dispatcher.Invoke
+                (() => {
+                    var defaultMenuItem = FindMenuItem(menus, targetView);
+                    if (defaultMenuItem != null )
+                    {
+                        defaultMenuItem.OpenViewCommand.Execute(defaultMenuItem);
+                    };
+                });
+
+        }
+        public MenuItemModel FindMenuItem(ObservableCollection<MenuItemModel> menus, string targetView)
+        {
+            foreach (var menuItem in menus)
+            {
+                // 检查当前项是否匹配
+                if (menuItem.TargetView == targetView)
+                    return menuItem;
+
+                // 如果当前项有子项，递归搜索子项
+                var childResult = FindMenuItem(menuItem.Children, targetView);
+                if (childResult != null)
+                    return childResult;
+            }
+            return null; // 如果没有找到，返回 null
         }
     }
 }

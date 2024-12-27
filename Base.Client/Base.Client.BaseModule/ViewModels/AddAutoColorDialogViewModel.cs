@@ -49,7 +49,7 @@ namespace Base.Client.BaseModule.ViewModels
                 }
                 catch (Exception ex)
                 {
-                    System.Windows.MessageBox.Show(ex.Message);
+                    System.Windows.MessageBox.Show(ex.ToString());
                 }
             });
 

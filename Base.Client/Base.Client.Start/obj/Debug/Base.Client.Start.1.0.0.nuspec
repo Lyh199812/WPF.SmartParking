@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Base.Client.Start</id>
+    <version>1.0.0</version>
+    <authors>Base.Client.Start</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="c19b072047c1e4f5925112bd27b57b7b63d6ed57" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="Base.Client.BLL" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Base.Client.EFCore" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Base.Client.DAL" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Base.Client.IBLL" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Base.Client.IDAL" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Base.Client.Tools" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Device.Communication" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Device.CommLab" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Device.DataConvertLib" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Device.Events" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Device.Helper" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Device.Models" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Extended.Wpf.Toolkit" version="4.6.1" exclude="Build,Analyzers" />
+        <dependency id="MaterialDesignThemes" version="5.1.0" exclude="Build,Analyzers" />
+        <dependency id="MiniExcel" version="1.35.0" exclude="Build,Analyzers" />
+        <dependency id="Prism.Unity" version="9.0.537" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\bin\Debug\net8.0-windows\Base.Client.Start.runtimeconfig.json" target="lib\net8.0-windows7.0\Base.Client.Start.runtimeconfig.json" />
+    <file src="E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Start\bin\Debug\net8.0-windows\Base.Client.Start.dll" target="lib\net8.0-windows7.0\Base.Client.Start.dll" />
+  </files>
+</package>

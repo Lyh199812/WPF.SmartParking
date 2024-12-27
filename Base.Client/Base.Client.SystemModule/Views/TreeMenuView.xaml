@@ -125,7 +125,9 @@
                 </Setter>
             </Style>
         </Grid.Resources>
-        <TreeView ItemsSource="{Binding Menus}" Background="Transparent" BorderThickness="0">
+        <TreeView ItemsSource="{Binding Menus}" ScrollViewer.VerticalScrollBarVisibility="Hidden" 
+                  Background="Transparent"
+                  BorderThickness="0">
             <TreeView.ItemTemplate>
                 <HierarchicalDataTemplate ItemsSource="{Binding Children}">
                     <Grid>

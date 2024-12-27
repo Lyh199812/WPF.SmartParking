@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LYH\\Desktop\\ZhaoXi.SmartParking\\Server\\SmarkParking.Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6AFF2AC-0CE0-47FF-9D3F-4F1CCD8DD101}|..\\SmarkParking.Server.Service\\SmartParking.Server.Service.csproj|c:\\users\\lyh\\desktop\\zhaoxi.smartparking\\server\\smarkparking.server.service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F958AE0C-DAB7-4791-AA6D-E1A52DD64621}|..\\SmartParking.Server.DAL\\SmartParking.Server.DAL.csproj|c:\\users\\lyh\\desktop\\zhaoxi.smartparking\\server\\smartparking.server.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9269C7A1-FF88-4A3F-A549-0D049078D2D1}|..\\SmartParking.Server.IDAL\\SmartParking.Server.IDAL.csproj|c:\\users\\lyh\\desktop\\zhaoxi.smartparking\\server\\smartparking.server.idal\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424B6F49-A5AD-443D-855C-046D63ACA8D1}|SmartParking.Server.csproj|c:\\users\\lyh\\desktop\\zhaoxi.smartparking\\server\\smarkparking.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424B6F49-A5AD-443D-855C-046D63ACA8D1}|SmartParking.Server.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{424B6F49-A5AD-443D-855C-046D63ACA8D1}|SmartParking.Server.csproj|C:\\Users\\LYH\\Desktop\\ZhaoXi.SmartParking\\Server\\SmarkParking.Server\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{424B6F49-A5AD-443D-855C-046D63ACA8D1}|SmartParking.Server.csproj|solutionrelative:controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 417,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\LYH\\Desktop\\ZhaoXi.SmartParking\\Server\\SmarkParking.Server.Service\\BaseService.cs",
+              "RelativeDocumentMoniker": "..\\SmarkParking.Server.Service\\BaseService.cs",
+              "ToolTip": "C:\\Users\\LYH\\Desktop\\ZhaoXi.SmartParking\\Server\\SmarkParking.Server.Service\\BaseService.cs",
+              "RelativeToolTip": "..\\SmarkParking.Server.Service\\BaseService.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAewBAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T09:23:34.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LYH\\Desktop\\ZhaoXi.SmartParking\\Server\\SmartParking.Server.IDAL\\IDbContext.cs",
+              "RelativeDocumentMoniker": "..\\SmartParking.Server.IDAL\\IDbContext.cs",
+              "ToolTip": "C:\\Users\\LYH\\Desktop\\ZhaoXi.SmartParking\\Server\\SmartParking.Server.IDAL\\IDbContext.cs",
+              "RelativeToolTip": "..\\SmartParking.Server.IDAL\\IDbContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:50:56.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LYH\\Desktop\\ZhaoXi.SmartParking\\Server\\SmarkParking.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\LYH\\Desktop\\ZhaoXi.SmartParking\\Server\\SmarkParking.Server\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAQwDcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:46:27.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "APPDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LYH\\Desktop\\ZhaoXi.SmartParking\\Server\\SmartParking.Server.DAL\\APPDbContext.cs",
+              "RelativeDocumentMoniker": "..\\SmartParking.Server.DAL\\APPDbContext.cs",
+              "ToolTip": "C:\\Users\\LYH\\Desktop\\ZhaoXi.SmartParking\\Server\\SmartParking.Server.DAL\\APPDbContext.cs",
+              "RelativeToolTip": "..\\SmartParking.Server.DAL\\APPDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T05:40:11.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FileController.cs",
+              "DocumentMoniker": "C:\\Users\\LYH\\Desktop\\ZhaoXi.SmartParking\\Server\\SmarkParking.Server\\Controllers\\FileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FileController.cs",
+              "ToolTip": "C:\\Users\\LYH\\Desktop\\ZhaoXi.SmartParking\\Server\\SmarkParking.Server\\Controllers\\FileController.cs",
+              "RelativeToolTip": "Controllers\\FileController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAqwCgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T00:52:51.188Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

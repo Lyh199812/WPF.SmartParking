@@ -126,7 +126,10 @@
       },
       "Base.Client.Entity/1.0.0": {
         "runtime": {
-          "Base.Client.Entity.dll": {}
+          "Base.Client.Entity.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

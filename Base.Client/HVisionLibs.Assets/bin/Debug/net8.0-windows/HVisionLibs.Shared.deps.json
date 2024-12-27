@@ -196,7 +196,10 @@
           "Prism.Unity": "9.0.537"
         },
         "runtime": {
-          "HVisionLibs.Core.dll": {}
+          "HVisionLibs.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "halcondotnet/22.5.0.0": {

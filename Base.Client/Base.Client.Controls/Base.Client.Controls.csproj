@@ -11,4 +11,9 @@
     <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Base.Client.Assets\Base.Client.Assets.csproj" />
+    <ProjectReference Include="..\Base.Client.Entity\Base.Client.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -10,14 +10,17 @@
                     <Grid Background="Black">
                         <Grid.ContextMenu>
                             <ContextMenu>
+                               
                                 <MenuItem Header="形状">
                                     <MenuItem x:Name="PART_RECT" Header="绘制矩形" />
                                     <MenuItem x:Name="PART_Ellipse" Header="绘制椭圆" />
                                     <MenuItem x:Name="PART_Circle" Header="绘制圆形" />
                                     <MenuItem x:Name="PART_Region" Header="绘制区域" />
                                 </MenuItem>
+                                <MenuItem x:Name="PART_Reduce" Header="裁剪图像" />
                                 <MenuItem x:Name="PART_MASK" Header="创建掩模" />
                                 <MenuItem x:Name="PART_ClearAll" Header="清除所有" />
+                                <MenuItem x:Name="PART_CreatShapModel" Header="创建形状模板" />
                             </ContextMenu>
                         </Grid.ContextMenu>
 
@@ -28,6 +31,13 @@
                                    VerticalAlignment="Top"
                                    Foreground="White" />
 
+                        <!-- TextBlock to display coordinates and gray value -->
+                        <Popup IsOpen="{Binding IsPopupOpen}" Placement="Mouse" StaysOpen="False">
+                            <TextBlock Background="LightYellow" 
+                                       Padding="5" FontSize="16" 
+                                       Text="{Binding PopupContent}" />
+                        </Popup>
+                        <!-- Initially hidden -->
                         <halcon:HSmartWindowControlWPF x:Name="PART_SMART" />
                     </Grid>
                 </ControlTemplate>

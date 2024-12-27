@@ -16,6 +16,9 @@
     <Page Update="Styles\DataGridStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Styles\DataGridStyle2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Styles\DatePickerStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -23,6 +26,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Styles\DefaultToolBarTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\TabControlStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Styles\TextBoxStyles.xaml">

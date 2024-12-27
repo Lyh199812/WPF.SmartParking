@@ -1,0 +1,15 @@
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\bin\Debug\BasicDemoWPF.exe.config
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\bin\Debug\BasicDemoWPF.exe
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\bin\Debug\BasicDemoWPF.pdb
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\obj\Debug\Device.Demo.HikDemo.csproj.AssemblyReference.cache
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\obj\Debug\BasicDemoWindow.baml
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\obj\Debug\BasicDemoWindow.g.cs
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\obj\Debug\App.g.cs
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\obj\Debug\BasicDemoWPF_MarkupCompile.cache
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\obj\Debug\BasicDemoWPF.g.resources
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\obj\Debug\BasicDemoWPF.Properties.Resources.resources
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\obj\Debug\Device.Demo.HikDemo.csproj.GenerateResource.cache
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\obj\Debug\Device.Demo.HikDemo.csproj.CoreCompileInputs.cache
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\obj\Debug\Device.D.467C72FC.Up2Date
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\obj\Debug\BasicDemoWPF.exe
+E:\SoftLibs\WPF.SmartParking\Base.Client\Device.Camera.HK.Demo\obj\Debug\BasicDemoWPF.pdb

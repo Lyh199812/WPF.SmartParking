@@ -4,6 +4,11 @@ using HVisionLibs.Core.Extensions;
 using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
+using Microsoft.Win32;
+using HVisionLibs.Core;
+using System.Windows.Media.Media3D;
+using System.Threading.Tasks;
+using System.Configuration;
 
 namespace HVisionLibs.Shared.Controls
 {
@@ -40,7 +45,7 @@ namespace HVisionLibs.Shared.Controls
             }
         }
 
-        private void DisplayMatchRender()
+        public void DisplayMatchRender()
         {
             if(Image!=null) { Display(Image); }
             if(MatchResult.Results != null)
@@ -68,12 +73,33 @@ namespace HVisionLibs.Shared.Controls
         public HObject Image
         {
             get { return (HObject)GetValue(ImageProperty); }
-            set { SetValue(ImageProperty, value); }
+            set  
+            {
+                SetValue(ImageProperty, value);
+            }
         }
 
         public static readonly DependencyProperty ImageProperty =
-            DependencyProperty.Register("Image", typeof(HObject), typeof(ImageEditView), new PropertyMetadata(ImageChangedCallback));
+            DependencyProperty.Register("Image", typeof(HObject), typeof(ImageEditView), new PropertyMetadata(null,ImageChangedCallback));
 
+
+        public static void ImageChangedCallback(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            if (d is ImageEditView view  )
+            {
+                if(e.NewValue != null)
+                {
+                    view.Display((HObject)e.NewValue);
+
+                }
+                else
+                {
+                    view.ClearAll();
+
+                }
+            }
+     
+        }
         /// <summary>
         /// 掩模
         /// </summary>
@@ -99,16 +125,14 @@ namespace HVisionLibs.Shared.Controls
 
 
 
-        public static void ImageChangedCallback(DependencyObject d, DependencyPropertyChangedEventArgs e)
-        {
-            if (d is ImageEditView view && e.NewValue != null)
-            {
-                view.Display((HObject)e.NewValue);
-            }
-        }
+
 
         public void Display(HObject hObject)
         {
+            if(hObject.CountObj()==0)
+            {
+                return;
+            }
             hWindow.DispObj(hObject);
             hWindow.SetPart(0, 0, -2, -2);
         }
@@ -122,7 +146,6 @@ namespace HVisionLibs.Shared.Controls
                 this.hSmart.Loaded += HSmart_Loaded;
             }
 
-            
             if (GetTemplateChild("PART_RECT") is MenuItem btnRect)
             {
                 btnRect.Click += (s, e) =>
@@ -162,7 +185,13 @@ namespace HVisionLibs.Shared.Controls
                     SetMask();
                 };
             }
-
+            if (GetTemplateChild("PART_Reduce") is MenuItem btnReduce)
+            {
+                btnReduce.Click += (s, e) =>
+                {
+                    ReduceImage();
+                };
+            }
             if (GetTemplateChild("PART_ClearAll") is MenuItem btnClear)
             {
                 btnClear.Click += (s, e) =>
@@ -170,24 +199,53 @@ namespace HVisionLibs.Shared.Controls
                     ClearAll();
                 };
             }
-
+        
+            if (GetTemplateChild("PART_CreatShapModel") is MenuItem btnCreatShapModel)
+            {
+                btnCreatShapModel.Click += (s, e) =>
+                {
+                    CreatShapModel();
+                };
+            }
             base.OnApplyTemplate();
         }
 
         private void SetMask()
         {
-            DrawRegion();
+            DrawMaskRegion();
         }
+        private void ReduceImage()
+        {
+            DrawReduceRegion();
+        }
+        private async void DrawReduceRegion()
+        {
+            HObject? RegionObject = null;
+            txtMeg.Text = "按鼠标左键绘制，右键结束";
+            await Task.Run(() =>
+            {
+                HOperatorSet.SetColor(hWindow, "yellow");
+                HOperatorSet.DrawRegion(out RegionObject, hWindow);
+            });
 
+            if (RegionObject == null) { return; }
+            HOperatorSet.ReduceDomain(Image, RegionObject, out HObject imageReduced);
+            SetValue(ImageProperty, imageReduced);
+            hWindow.ClearWindow();
+            txtMeg.Text = "";
+            hWindow.DispObj(Image);
+        }
         private async void ClearAll()
         {
             DrawObjectList?.Clear();
-            
+            MaskObject = null;
             hWindow.ClearWindow();
-            if(Image!=null)
+            txtMeg.Text = "";
+            if (Image!=null)
             {
                 hWindow.DispObj(Image);
             }
+
         }
 
         private async void DrawCircle()
@@ -280,7 +338,7 @@ namespace HVisionLibs.Shared.Controls
             txtMeg.Text = "按鼠标左键绘制，右键结束";
             await Task.Run(() =>
             {
-                HOperatorSet.SetColor(hWindow, "red");
+                HOperatorSet.SetColor(hWindow, "yellow");
                 HOperatorSet.DrawRegion(out RegionObject,hWindow);
             });
             if (RegionObject == null) { return; }
@@ -290,15 +348,141 @@ namespace HVisionLibs.Shared.Controls
                 HObject = RegionObject
             });
             txtMeg.Text = String.Empty;
-            MaskObject = RegionObject;
+
             HOperatorSet.GenContourRegionXld(RegionObject, out HObject contours, "border");
             HOperatorSet.DispObj(contours, hWindow);
         }
 
+        private async void DrawMaskRegion()
+        {
+            HObject? RegionObject = null;
+
+            txtMeg.Text = "按鼠标左键绘制，右键结束";
+            await Task.Run(() =>
+            {
+                HOperatorSet.SetColor(hWindow, "yellow");
+                HOperatorSet.DrawRegion(out RegionObject, hWindow);
+            });
+            if (RegionObject == null) { return; }
+            DrawObjectList.Add(new DrawingObjectInfo()
+            {
+                ShapeType = ShapeType.Region,
+                HObject = RegionObject
+            });
+            txtMeg.Text = String.Empty;
+            MaskObject = RegionObject;
+
+            HOperatorSet.GenContourRegionXld(RegionObject, out HObject contours, "border");
+            HOperatorSet.DispObj(contours, hWindow);
+        }
+
+        private void CreatShapModel()
+        {
+            DrawingObjectInfo current;
+            
+            if(Image == null)
+            {
+                txtMeg.Text = "请先加载图片";
+
+            }
+           
+            if (DrawObjectList.Count()>0)
+            {
+                current = DrawObjectList[DrawObjectList.Count()-1];
+                
+                HObject ROI = null;
+                HObject imageReduced=null   ;
+                try
+                {
+                    if (MaskObject != null)
+                    {
+
+                        HOperatorSet.Difference(current.HObject, MaskObject, out ROI);
+
+                    }
+                    else
+                    {
+                        ROI = current.HObject;
+                    }
+                    //HOperatorSet.ReduceDomain(Image, current.HObject, out imageReduced);
+                    HOperatorSet.ReduceDomain(Image, ROI, out imageReduced);
+                    HOperatorSet.SetColor(hWindow, "green");
+
+                    HOperatorSet.DispObj(ROI, hWindow);
+
+                }
+                catch (Exception ex)
+                {
+
+                    txtMeg.Text = "模板区域获取异常"+ex.ToString();
+                    imageReduced=null;
+                    return;
+                }
+
+                ShapeTemplateCreatorRunParameter parameter = new ShapeTemplateCreatorRunParameter();
+                parameter.ApplyDefaultParameter();
+                HOperatorSet.CreateShapeModel(imageReduced, 
+                    parameter.NumLevels, parameter.AngleStart,
+                    parameter.AngleExtent, parameter.AngleStep,
+                    parameter.Optimization,parameter.Metric,
+                    parameter.Contrast,parameter.MinContrast,out HTuple modelID);
+                
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+
+                saveFileDialog.Filter = "Shape Model (*.shm)|*.shm"; // 文件格式过滤
+                saveFileDialog.Title = "保存Shape模板";
+
+                if (saveFileDialog.ShowDialog() == true) // 用户选择了文件路径
+                {
+                    SaveShapeTemplate(modelID, saveFileDialog.FileName);
+                }
+            }
+            else
+            {
+                txtMeg.Text = "需要先绘制区域后才可创建模板";
+            }
+        }
         private void HSmart_Loaded(object sender, RoutedEventArgs e)
         {
             hWindow = this.hSmart.HalconWindow;
             HWindow = hWindow;
         }
+
+
+        /// <summary>
+        /// <summary>
+        /// 保存模板
+        /// </summary>
+        public HOperateResult SaveShapeTemplate(HTuple shapeModel, string filePath)
+        {
+            const string SaveError = "保存Shape模板失败!";
+            const string InvalidTemplateError = "Shape模板无效!";
+
+            if (shapeModel == null)
+                return HOperateResult.CreateFailResult(InvalidTemplateError);
+
+            try
+            {
+                // 根据文件扩展名决定模板保存格式
+                string extension = System.IO.Path.GetExtension(filePath).ToLower();
+                string templateFormat = extension switch
+                {
+                    ".shm" => "shm", // 假设支持保存为 .shm 格式
+                    _ => throw new NotSupportedException("不支持的模板格式")
+                };
+
+                // 保存 Shape 模板
+                HOperatorSet.WriteShapeModel(shapeModel, filePath);
+            }
+            catch (Exception ex)
+            {
+                return HOperateResult.CreateFailResult($"{SaveError} {ex.ToString()}");
+            }
+
+            return new HOperateResult { IsSuccess = true, Message = $"Shape模板成功保存到: {filePath}" };
+        }
+
+
+
     }
 }

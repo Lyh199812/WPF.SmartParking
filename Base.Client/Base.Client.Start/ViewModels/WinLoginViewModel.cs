@@ -11,7 +11,6 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Threading;
 using Unity;
-using Base.Client.BLL;
 using Base.Client.Common;
 using Base.Client.Entity;
 using Base.Client.IBLL;
@@ -40,7 +39,7 @@ namespace Base.Client.ViewModels
             // 2、登录失败-显示一下错误信息
             LoginCommand = new DelegateCommand<object>(DoLogin);
 
-
+            
             // 开始检查程序版本
             this.IsLoading = true;
             this.LoadingMessage = "正在检查软件版本";
@@ -106,7 +105,7 @@ namespace Base.Client.ViewModels
                 }
                 catch (Exception ex)
                 {
-                    this.ErrorMessage = ex.Message;
+                    this.ErrorMessage = ex.ToString();
                 }
                 finally
                 {
@@ -164,6 +163,7 @@ namespace Base.Client.ViewModels
                     {
                         // 将用户信息保存在内存中
                         _globalValue.UserInfo = user;
+                        _globalValue.IsLocalMode = false;
                         // 对接 
                         // 登录成功   请求Api    耗时操作    Loading动画显示
 
@@ -180,7 +180,7 @@ namespace Base.Client.ViewModels
                 catch (Exception ex)
                 {
                     // 异常信息  在界面显示
-                    ErrorMessage = ex.Message;
+                    ErrorMessage = ex.ToString();
                 }
                 finally
                 {

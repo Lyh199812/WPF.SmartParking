@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6848C0F5-8DC1-4DB8-BA62-B6972B95B068}|Base.Client.DAL\\Base.Client.DAL.csproj|e:\\softlibs\\wpf.smartparking\\base.client\\base.client.dal\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6848C0F5-8DC1-4DB8-BA62-B6972B95B068}|Base.Client.DAL\\Base.Client.DAL.csproj|solutionrelative:base.client.dal\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseDBService.cs",
+              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Client.DAL\\BaseDBService.cs",
+              "RelativeDocumentMoniker": "Base.Client.DAL\\BaseDBService.cs",
+              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Client.DAL\\BaseDBService.cs",
+              "RelativeToolTip": "Base.Client.DAL\\BaseDBService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvyMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:42:52.785Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 16-384276419
 
 40-12307250
-2211078518335
+2411675143196
 Views\AddAutoColorDialog.xaml;Views\AddFeeModeDialog.xaml;Views\AddFileDialog.xaml;Views\AddLicenseColorDialog.xaml;Views\AddMenuDialog.xaml;Views\AddRoleDialog.xaml;Views\AddUserDialog.xaml;Views\AutoColorView.xaml;Views\FeeModeView.xaml;Views\FileUploadView.xaml;Views\LicenseColorView.xaml;Views\MenuManagementView.xaml;Views\ModifyRolesDialog.xaml;Views\RoleManagementView.xaml;Views\SelectUserDialog.xaml;Views\UserManagementView.xaml;
 
 False

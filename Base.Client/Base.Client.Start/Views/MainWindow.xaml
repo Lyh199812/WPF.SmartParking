@@ -87,7 +87,7 @@
             <StackPanel>
                 <Image Source="pack://application:,,,/Base.Client.Assets;component/Images/Logo.png" Width="70"
                        Margin="0,30,0,0"/>
-                <TextBlock Text="XX Manager" FontSize="20" FontWeight="Bold"
+                <TextBlock Text="Test Platform" FontSize="20" FontWeight="Bold"
                            HorizontalAlignment="Center" Margin="0,30" Foreground="White"/>
             </StackPanel>
             <!--注册区域   显示树形菜单-->

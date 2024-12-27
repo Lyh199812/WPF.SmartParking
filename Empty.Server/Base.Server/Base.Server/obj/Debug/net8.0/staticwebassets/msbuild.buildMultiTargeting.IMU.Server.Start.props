@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IMU.Server.Start.props" />
+</Project>

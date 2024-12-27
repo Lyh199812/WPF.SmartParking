@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-8-349023616
+10-44086901
 
 4327765147
-1991504149298
-Styles\BaseResources.xaml;Styles\ButtonStyles.xaml;Styles\ComboBoxStyle.xaml;Styles\DataGridStyle.xaml;Styles\DatePickerStyle.xaml;Styles\DatePickerStyle2.xaml;Styles\DefaultToolBarTemplate.xaml;Styles\TextBoxStyles.xaml;
+199-842519717
+Styles\BaseResources.xaml;Styles\ButtonStyles.xaml;Styles\ComboBoxStyle.xaml;Styles\DataGridStyle.xaml;Styles\DataGridStyle2.xaml;Styles\DatePickerStyle.xaml;Styles\DatePickerStyle2.xaml;Styles\DefaultToolBarTemplate.xaml;Styles\TabControlStyle.xaml;Styles\TextBoxStyles.xaml;
 
 False
 

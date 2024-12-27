@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "218VwyP8MkuLXxhpDMhspKPE1IKm+XW/+cbmL/H+vF5rRjL5y9esG0RdWUR4bnaX63A2OVbA7JRKDbau/91k8w==",
+  "dgSpecHash": "PgAnSctzb8o=",
   "success": true,
   "projectFilePath": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Client.Upgrade\\Base.Client.Upgrade.csproj",
   "expectedPackageFiles": [
@@ -32,5 +32,36 @@
     "C:\\Users\\LYH\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\LYH\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "包 \"System.Data.SqlClient\" 4.8.1 具有已知的 中 严重性漏洞，https://github.com/advisories/GHSA-8g2p-5pqh-5jmc",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "包 \"System.Data.SqlClient\" 4.8.1 具有已知的 高 严重性漏洞，https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "包 \"System.Drawing.Common\" 4.7.0 具有已知的 严重 严重性漏洞，https://github.com/advisories/GHSA-rxg9-xrhp-64gj",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }

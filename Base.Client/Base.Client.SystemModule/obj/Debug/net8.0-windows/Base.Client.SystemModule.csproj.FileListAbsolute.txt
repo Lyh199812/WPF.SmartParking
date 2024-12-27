@@ -72,3 +72,7 @@ E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.SystemModule\obj\Debug\net8
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.SystemModule\obj\Debug\net8.0-windows\Base.Client.SystemModule.pdb
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.SystemModule\obj\Debug\net8.0-windows\Base.Client.SystemModule.genruntimeconfig.cache
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.SystemModule\obj\Debug\net8.0-windows\ref\Base.Client.SystemModule.dll
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.SystemModule\bin\Debug\net8.0-windows\Base.Client.Tools.dll
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.SystemModule\bin\Debug\net8.0-windows\Base.Client.Tools.pdb
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.SystemModule\bin\Debug\net8.0-windows\Base.Client.EFCore.dll
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.SystemModule\bin\Debug\net8.0-windows\Base.Client.EFCore.pdb

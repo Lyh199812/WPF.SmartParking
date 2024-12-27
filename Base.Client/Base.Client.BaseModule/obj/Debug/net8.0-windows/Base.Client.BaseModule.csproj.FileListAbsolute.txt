@@ -74,6 +74,7 @@ E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\bin\Debug\net8.0
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\bin\Debug\net8.0-windows\Base.Client.Common.dll
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\bin\Debug\net8.0-windows\Base.Client.Controls.dll
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\bin\Debug\net8.0-windows\Base.Client.DAL.dll
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\bin\Debug\net8.0-windows\Base.Client.EFCore.dll
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\bin\Debug\net8.0-windows\Base.Client.Entity.dll
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\bin\Debug\net8.0-windows\Base.Client.IBLL.dll
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\bin\Debug\net8.0-windows\Base.Client.IDAL.dll
@@ -85,6 +86,7 @@ E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\bin\Debug\net8.0
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\bin\Debug\net8.0-windows\Base.Client.Entity.pdb
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\bin\Debug\net8.0-windows\Base.Client.IBLL.pdb
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\bin\Debug\net8.0-windows\Base.Client.IDAL.pdb
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\bin\Debug\net8.0-windows\Base.Client.EFCore.pdb
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\obj\Debug\net8.0-windows\Base.Client.BaseModule.csproj.AssemblyReference.cache
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\obj\Debug\net8.0-windows\Views\FileUploadView.baml
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.BaseModule\obj\Debug\net8.0-windows\Views\AddAutoColorDialog.g.cs

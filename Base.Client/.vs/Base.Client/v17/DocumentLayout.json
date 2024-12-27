@@ -3,44 +3,8 @@
   "WorkspaceRootPath": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9C62DB1-8441-4F84-915D-0705CD24B0C9}|Base.Client.SystemModule\\Base.Client.SystemModule.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\base.client.systemmodule\\viewmodels\\treemenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9C62DB1-8441-4F84-915D-0705CD24B0C9}|Base.Client.SystemModule\\Base.Client.SystemModule.csproj|solutionrelative:base.client.systemmodule\\viewmodels\\treemenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E48EAF7-EBDA-4A16-AB2F-1BEEB798CB8F}|Base.Clent.HVisionModule\\Base.Clent.HVisionModule.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\base.clent.hvisionmodule\\templatematch\\views\\shapetemplatesearcherview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E48EAF7-EBDA-4A16-AB2F-1BEEB798CB8F}|Base.Clent.HVisionModule\\Base.Clent.HVisionModule.csproj|solutionrelative:base.clent.hvisionmodule\\templatematch\\views\\shapetemplatesearcherview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E48EAF7-EBDA-4A16-AB2F-1BEEB798CB8F}|Base.Clent.HVisionModule\\Base.Clent.HVisionModule.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\base.clent.hvisionmodule\\templatematch\\viewmodes\\shapetemplatesearcherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E48EAF7-EBDA-4A16-AB2F-1BEEB798CB8F}|Base.Clent.HVisionModule\\Base.Clent.HVisionModule.csproj|solutionrelative:base.clent.hvisionmodule\\templatematch\\viewmodes\\shapetemplatesearcherviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E48EAF7-EBDA-4A16-AB2F-1BEEB798CB8F}|Base.Clent.HVisionModule\\Base.Clent.HVisionModule.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\base.clent.hvisionmodule\\templatematch\\views\\shapetemplatesearcherview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5E48EAF7-EBDA-4A16-AB2F-1BEEB798CB8F}|Base.Clent.HVisionModule\\Base.Clent.HVisionModule.csproj|solutionrelative:base.clent.hvisionmodule\\templatematch\\views\\shapetemplatesearcherview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{733569B6-16DA-4357-9F2A-23AC160A7492}|HVisionLibs.Core\\HVisionLibs.Core.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\hvisionlibs.core\\defectdetection\\variationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{733569B6-16DA-4357-9F2A-23AC160A7492}|HVisionLibs.Core\\HVisionLibs.Core.csproj|solutionrelative:hvisionlibs.core\\defectdetection\\variationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{733569B6-16DA-4357-9F2A-23AC160A7492}|HVisionLibs.Core\\HVisionLibs.Core.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\hvisionlibs.core\\templatematch\\shared\\methodinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{733569B6-16DA-4357-9F2A-23AC160A7492}|HVisionLibs.Core\\HVisionLibs.Core.csproj|solutionrelative:hvisionlibs.core\\templatematch\\shared\\methodinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E48EAF7-EBDA-4A16-AB2F-1BEEB798CB8F}|Base.Clent.HVisionModule\\Base.Clent.HVisionModule.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\base.clent.hvisionmodule\\templatematch\\viewmodes\\shapetemplatecreatorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E48EAF7-EBDA-4A16-AB2F-1BEEB798CB8F}|Base.Clent.HVisionModule\\Base.Clent.HVisionModule.csproj|solutionrelative:base.clent.hvisionmodule\\templatematch\\viewmodes\\shapetemplatecreatorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E48EAF7-EBDA-4A16-AB2F-1BEEB798CB8F}|Base.Clent.HVisionModule\\Base.Clent.HVisionModule.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\base.clent.hvisionmodule\\templatematch\\views\\shapetemplatecreatorview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E48EAF7-EBDA-4A16-AB2F-1BEEB798CB8F}|Base.Clent.HVisionModule\\Base.Clent.HVisionModule.csproj|solutionrelative:base.clent.hvisionmodule\\templatematch\\views\\shapetemplatecreatorview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{733569B6-16DA-4357-9F2A-23AC160A7492}|HVisionLibs.Core\\HVisionLibs.Core.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\hvisionlibs.core\\templatematch\\shapemodel\\shapetemplatecreatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{733569B6-16DA-4357-9F2A-23AC160A7492}|HVisionLibs.Core\\HVisionLibs.Core.csproj|solutionrelative:hvisionlibs.core\\templatematch\\shapemodel\\shapetemplatecreatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E48EAF7-EBDA-4A16-AB2F-1BEEB798CB8F}|Base.Clent.HVisionModule\\Base.Clent.HVisionModule.csproj|E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\base.clent.hvisionmodule\\templatematch\\views\\shapetemplatecreatorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5E48EAF7-EBDA-4A16-AB2F-1BEEB798CB8F}|Base.Clent.HVisionModule\\Base.Clent.HVisionModule.csproj|solutionrelative:base.clent.hvisionmodule\\templatematch\\views\\shapetemplatecreatorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{6848C0F5-8DC1-4DB8-BA62-B6972B95B068}|Base.Client.DAL\\Base.Client.DAL.csproj|e:\\softlibs\\wpf.smartparking\\base.client\\base.client.dal\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6848C0F5-8DC1-4DB8-BA62-B6972B95B068}|Base.Client.DAL\\Base.Client.DAL.csproj|solutionrelative:base.client.dal\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,121 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TreeMenuViewModel.cs",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Client.SystemModule\\ViewModels\\TreeMenuViewModel.cs",
-              "RelativeDocumentMoniker": "Base.Client.SystemModule\\ViewModels\\TreeMenuViewModel.cs",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Client.SystemModule\\ViewModels\\TreeMenuViewModel.cs",
-              "RelativeToolTip": "Base.Client.SystemModule\\ViewModels\\TreeMenuViewModel.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAQwBwAAABeAAAA",
+              "Title": "BaseDBService.cs",
+              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Client.DAL\\BaseDBService.cs",
+              "RelativeDocumentMoniker": "Base.Client.DAL\\BaseDBService.cs",
+              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Client.DAL\\BaseDBService.cs",
+              "RelativeToolTip": "Base.Client.DAL\\BaseDBService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T11:54:59.554Z",
+              "WhenOpened": "2024-12-27T07:42:52.785Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShapeTemplateSearcherViewModel.cs",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Clent.HVisionModule\\TemplateMatch\\ViewModes\\ShapeTemplateSearcherViewModel.cs",
-              "RelativeDocumentMoniker": "Base.Clent.HVisionModule\\TemplateMatch\\ViewModes\\ShapeTemplateSearcherViewModel.cs",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Clent.HVisionModule\\TemplateMatch\\ViewModes\\ShapeTemplateSearcherViewModel.cs",
-              "RelativeToolTip": "Base.Clent.HVisionModule\\TemplateMatch\\ViewModes\\ShapeTemplateSearcherViewModel.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAqwGwAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T11:52:30.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShapeTemplateSearcherView.xaml",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateSearcherView.xaml",
-              "RelativeDocumentMoniker": "Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateSearcherView.xaml",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateSearcherView.xaml",
-              "RelativeToolTip": "Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateSearcherView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-05T11:51:45.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ShapeTemplateSearcherView.xaml.cs",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateSearcherView.xaml.cs",
-              "RelativeDocumentMoniker": "Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateSearcherView.xaml.cs",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateSearcherView.xaml.cs",
-              "RelativeToolTip": "Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateSearcherView.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAADwvxQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T11:51:14.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MethodInfo.cs",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\HVisionLibs.Core\\TemplateMatch\\Shared\\MethodInfo.cs",
-              "RelativeDocumentMoniker": "HVisionLibs.Core\\TemplateMatch\\Shared\\MethodInfo.cs",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\HVisionLibs.Core\\TemplateMatch\\Shared\\MethodInfo.cs",
-              "RelativeToolTip": "HVisionLibs.Core\\TemplateMatch\\Shared\\MethodInfo.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAswBAAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T11:42:59.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VariationService.cs",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\HVisionLibs.Core\\DefectDetection\\VariationService.cs",
-              "RelativeDocumentMoniker": "HVisionLibs.Core\\DefectDetection\\VariationService.cs",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\HVisionLibs.Core\\DefectDetection\\VariationService.cs",
-              "RelativeToolTip": "HVisionLibs.Core\\DefectDetection\\VariationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T11:45:15.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ShapeTemplateCreatorService.cs",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\HVisionLibs.Core\\TemplateMatch\\ShapeModel\\ShapeTemplateCreatorService.cs",
-              "RelativeDocumentMoniker": "HVisionLibs.Core\\TemplateMatch\\ShapeModel\\ShapeTemplateCreatorService.cs",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\HVisionLibs.Core\\TemplateMatch\\ShapeModel\\ShapeTemplateCreatorService.cs",
-              "RelativeToolTip": "HVisionLibs.Core\\TemplateMatch\\ShapeModel\\ShapeTemplateCreatorService.cs",
-              "ViewState": "AQIAANYAAAAAAAAAAAAYwOEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T09:25:20.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ShapeTemplateCreatorView.xaml.cs",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateCreatorView.xaml.cs",
-              "RelativeDocumentMoniker": "Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateCreatorView.xaml.cs",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateCreatorView.xaml.cs",
-              "RelativeToolTip": "Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateCreatorView.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAADwvxYAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T09:16:07.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ShapeTemplateCreatorViewModel.cs",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Clent.HVisionModule\\TemplateMatch\\ViewModes\\ShapeTemplateCreatorViewModel.cs",
-              "RelativeDocumentMoniker": "Base.Clent.HVisionModule\\TemplateMatch\\ViewModes\\ShapeTemplateCreatorViewModel.cs",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Clent.HVisionModule\\TemplateMatch\\ViewModes\\ShapeTemplateCreatorViewModel.cs",
-              "RelativeToolTip": "Base.Clent.HVisionModule\\TemplateMatch\\ViewModes\\ShapeTemplateCreatorViewModel.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAA9wF4AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T09:15:01.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ShapeTemplateCreatorView.xaml",
-              "DocumentMoniker": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateCreatorView.xaml",
-              "RelativeDocumentMoniker": "Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateCreatorView.xaml",
-              "ToolTip": "E:\\SoftLibs\\WPF.SmartParking\\Base.Client\\Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateCreatorView.xaml",
-              "RelativeToolTip": "Base.Clent.HVisionModule\\TemplateMatch\\Views\\ShapeTemplateCreatorView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-05T11:09:53.247Z"
             }
           ]
         }

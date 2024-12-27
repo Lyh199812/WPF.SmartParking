@@ -23,6 +23,7 @@
     <ProjectReference Include="..\Base.Client.Entity\Base.Client.Entity.csproj" />
     <ProjectReference Include="..\Base.Client.IBLL\Base.Client.IBLL.csproj" />
     <ProjectReference Include="..\Base.Client.IDAL\Base.Client.IDAL.csproj" />
+    <ProjectReference Include="..\Base.Client.Tools\Base.Client.Tools.csproj" />
   </ItemGroup>
 
 </Project>

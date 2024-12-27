@@ -29,9 +29,11 @@ E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-win
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Styles\ButtonStyles.baml
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Styles\ComboBoxStyle.baml
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Styles\DataGridStyle.baml
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Styles\DataGridStyle2.baml
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Styles\DatePickerStyle.baml
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Styles\DatePickerStyle2.baml
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Styles\DefaultToolBarTemplate.baml
+E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Styles\TabControlStyle.baml
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Styles\TextBoxStyles.baml
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Base.Client.Assets_MarkupCompile.cache
 E:\SoftLibs\WPF.SmartParking\Base.Client\Base.Client.Assets\obj\Debug\net8.0-windows\Base.Client.Assets.g.resources

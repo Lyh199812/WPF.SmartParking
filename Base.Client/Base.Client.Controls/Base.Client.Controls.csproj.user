@@ -5,7 +5,13 @@
     <Page Update="CircularProgressBar.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="InfoCand\ProductionInfoCardStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Loading.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LogControl\LogListBoxStyle.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pagination.xaml">

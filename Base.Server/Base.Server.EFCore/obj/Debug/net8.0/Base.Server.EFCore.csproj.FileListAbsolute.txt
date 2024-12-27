@@ -50,3 +50,4 @@ E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server.EFCore\obj\Debug\net8.0\ref
 E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server.EFCore\obj\Debug\net8.0\Base.Server.EFCore.pdb
 E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server.EFCore\obj\Debug\net8.0\Base.Server.EFCore.genruntimeconfig.cache
 E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server.EFCore\obj\Debug\net8.0\ref\Base.Server.EFCore.dll
+E:\SoftLibs\WPF.SmartParking\Base.Server\Base.Server.EFCore\obj\Debug\net8.0\Base.Server.EFCore.sourcelink.json

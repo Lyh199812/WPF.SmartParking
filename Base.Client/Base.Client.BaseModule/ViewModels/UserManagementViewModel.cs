@@ -141,7 +141,7 @@ namespace Base.Client.BaseModule.ViewModels
                 }
                 catch (Exception ex)
                 {
-                    System.Windows.MessageBox.Show(ex.Message, "提示");
+                    System.Windows.MessageBox.Show(ex.ToString(), "提示");
                 }
             });
         }
